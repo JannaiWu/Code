@@ -6,7 +6,7 @@ class Solution:
             return 2
         else :
             jp=0
-            for i in range(1,n):
+            for i in range(1,n):#从f(1)累加到f(n-1)
                 jp=jp+self.jumpFloorII(i)
             jp+=1
             return jp
